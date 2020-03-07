@@ -11,6 +11,23 @@ NPM wants to always pull from it's home repository. You have to indicate that yo
 registry=https://registry.npmjs.org/
 ```
 
+## Usage
+
+Install the module:
+
+```
+npm install @robertomachorro/summod
+```
+
+The use in code:
+
+```
+const summod = require('@robertomachorro/summod')
+const summodarr = require('@robertomachorro/summod/sumarray')
+
+console.log('Demo', summod.sum(1, 2), summodarr.addall(0))
+```
+
 ## References
 
 * [Creating NodeJS modules](https://docs.npmjs.com/creating-node-js-modules)
