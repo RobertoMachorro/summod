@@ -1,0 +1,14 @@
+{
+  "name": "summod",
+  "version": "1.0.0",
+  "description": "Adding numbers module",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "Roberto Machorro",
+  "license": "MIT"
+}
