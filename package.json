@@ -1,6 +1,6 @@
 {
   "name": "@RobertoMachorro/summod",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adding numbers module",
   "repository": "git@github.com:RobertoMachorro/summod.git",
   "publishConfig": {
