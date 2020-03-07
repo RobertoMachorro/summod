@@ -4,10 +4,11 @@ A numbers addition module. The intent is to demonstrate how _node modules_ work,
 
 ## Installing
 
-NPM wants to always pull from it's home repository. You have to indicate that you are fetching from a different repository:
+NPM wants to always pull from it's home repository. You have to indicate that you are fetching from a different repository based on scope, use an *.npmrc* file:
 
 ```
-npm install --registry=https://npm.pkg.github.com/ @robertomachorro/summod
+@robertomachorro:registry=https://npm.pkg.github.com/
+registry=https://registry.npmjs.org/
 ```
 
 ## References
