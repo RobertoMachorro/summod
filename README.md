@@ -11,8 +11,6 @@ NPM wants to always pull from it's home repository. You have to indicate that yo
 registry=https://registry.npmjs.org/
 ```
 
-## Usage
-
 Login to GitHub Package (use an Access Token), then install the module:
 
 ```
@@ -20,7 +18,9 @@ npm login --registry=https://npm.pkg.github.com/
 npm install @robertomachorro/summod
 ```
 
-The use in code:
+## Usage
+
+Within code:
 
 ```
 const summod = require('@robertomachorro/summod')
