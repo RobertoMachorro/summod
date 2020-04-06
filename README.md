@@ -18,6 +18,16 @@ npm login --registry=https://npm.pkg.github.com/
 npm install @robertomachorro/summod
 ```
 
+## Installing for Debug
+
+NPM allows local installations, these don't require the module to be pulled down from a repository.
+
+```
+npm help link
+npm link
+npm link @robertomachorro/summod
+```
+
 ## Usage
 
 Within code:
