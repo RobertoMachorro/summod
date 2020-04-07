@@ -11,10 +11,10 @@ NPM wants to always pull from it's home repository. You have to indicate that yo
 registry=https://registry.npmjs.org/
 ```
 
-Login to GitHub Package (use an Access Token), then install the module:
+Or login to GitHub Package (use an Access Token), then install the module:
 
 ```
-npm login --registry=https://npm.pkg.github.com/
+npm login --registry=https://npm.pkg.github.com/ --scope=@robertomachorro
 npm install @robertomachorro/summod
 ```
 
