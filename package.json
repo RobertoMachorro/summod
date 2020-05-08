@@ -1,11 +1,8 @@
 {
-  "name": "@RobertoMachorro/summod",
+  "name": "summod",
   "version": "1.0.2",
   "description": "Adding numbers module",
   "repository": "git@github.com:RobertoMachorro/summod.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "main": "index.js",
   "scripts": {
     "test": "xo"
